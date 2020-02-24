@@ -35,7 +35,7 @@ def retrieve_last_element_from_array(array)
   array.last 
 end 
 
-def update_element_from_index(array, index)
+def update_element_from_index(array, index, element)
   array[index] = element 
   array[index]
 end 
